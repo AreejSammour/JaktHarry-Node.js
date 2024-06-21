@@ -1,0 +1,54 @@
+.profilePic{
+  width: 75%;
+}
+.user-profile-pg {
+  padding: 20px;
+  width: 100%;
+
+  .user-post-signups {
+    margin: 20px 0;
+  }
+  
+}
+
+@media screen and (min-width: 591px) and (max-width: 767px) {
+  .profilePic{
+    display:inline-block;
+    flex-direction: column;
+    width: 90%;
+  }
+  .allChildrenCenter{
+    margin: 10px auto;
+    width: 100%;
+    
+  }
+  .userInfo{
+    width: 500px;
+    text-align: center;
+  }
+  .userInfo p{
+    width: 350px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 590px){
+  .profilePic{
+    display:inline-block;
+    flex-direction: column;
+    width: 90%;
+  }
+  .allChildrenCenter{
+    margin: 10px auto;
+    width: 100%;
+    
+  }
+  .userInfo{
+    width: 500px;
+    text-align: center;
+  }
+  .userInfo p{
+    width: 500px;
+    text-align: center;
+  }
+}
